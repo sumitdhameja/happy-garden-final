@@ -301,3 +301,12 @@ h2.ss-subtitle:after{
 .ss-circle-30{
     background-image: url(../images/30.jpg);
 }
+
+ul li:hover:after{
+   border-bottom: 2px solid red;
+   bottom: 0;
+   content: "";
+   left: 0;
+   position: absolute;
+  width: 100px;
+}
