@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Full Slider - Start Bootstrap Template</title>
+    <title>Happy Garden</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -49,19 +49,20 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Happy Garden</a>
+                <a class="navbar-brand" href="#">Happy Garden Logo</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#images">Collection</a>
+                        <a href="#images">Gallery</a>
                     </li>
                     <li>
                         <a href="#">Services</a>
                     </li>
-                    <li>
-                        <a href="#">Services</a>
+                   
+                   <li >
+                        <a id="subscribeModal" href="#">Subscribe</a>
                     </li>
                     <li>
                         <a href="#">About</a>
@@ -76,49 +77,48 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Full Page Image Background Carousel Header -->
-    <header id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for Slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <!-- Set the first background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('images/pot.jpg');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 1</h2>
-                </div>
+    <!-- Carousel
+    ================================================== -->
+   
+    <div id="myCarousel" class="carousel">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="images/pot.jpg">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, velit officiis at, quia aut, laboriosam earum eaque necessitatibus voluptate id nulla inventore accusamus. Minus doloremque, iure nostrum facere soluta laborum.</p>
+              <a class="btn btn-large btn-primary" href="#">Sign up today</a>
+              <i class="btn fa fa-chevron-down fa-2x lead" aria-hidden="true"></i>
             </div>
-            <div class="item">
-                <!-- Set the second background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('images/leaves.jpg');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 2</h2>
-                </div>
-            </div>
-            <div class="item">
-                <!-- Set the third background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('images/flowers.jpg');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 3</h2>
-                </div>
-            </div>
+          </div>
         </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
-
-    </header>
+        <div class="item">
+          <img src="images/flowers.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eveniet, sed labore voluptates quasi eum quisquam quod provident perferendis quidem sequi similique consequatur. Quibusdam tenetur adipisci a, voluptatum eius voluptas.</p>
+              <a class="btn btn-large btn-primary" href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/leaves.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more.</h1>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, amet quos aut ipsum ullam maiores recusandae facilis quas quasi perspiciatis necessitatibus, voluptatem ipsam harum incidunt modi adipisci, voluptatibus, error blanditiis.</p>
+              <a class="btn btn-large btn-primary" href="#">Browse gallery</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+    </div><!-- /.carousel -->
+   
+    
 
     <!-- Page Content -->
  
@@ -323,6 +323,51 @@
         </div>
     </footer>
     
+    <!--Subscribe Modal -->
+   <!-- Modal -->
+<div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Subscription Form Demo</h4>
+ 
+<p>This is Bootstrap Modal popup example.</p>
+      </div>
+      <div class="modal-body">
+       
+<!--End mc_embed_signup-->
+ 
+   <!-- Begin MailChimp Signup Form -->
+<form class="form-horizontal" role="form">
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10">
+    <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL"/>
+    </div>
+     </div>
+    <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_9e279011b21a23e1aed5e4868_cca4394bc9" value=""/></div>
+    <div class="form-group remove-bottom">
+    <div class="col-sm-offset-2 col-sm-10">
+    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default"/>
+    </div>
+  </div>
+</form>
+ 
+<!--End mc_embed_signup-->
+      </div>
+      <div class="modal-footer remove-top">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <script   src="https://code.jquery.com/ui/1.12.0-rc.2/jquery-ui.min.js"   integrity="sha256-55Jz3pBCF8z9jBO1qQ7cIf0L+neuPTD1u7Ytzrp2dqo="   crossorigin="anonymous"></script>
@@ -334,7 +379,7 @@
     <!-- Script to Activate the Carousel -->
     <script>
     $('.carousel').carousel({
-        interval: 5000 //changes the speed
+        interval: 20000 //changes the speed
     })
     </script>
 
