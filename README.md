@@ -1,5 +1,5 @@
 
-[Happy-Garden](https://github.com/sumitdhameja/happy-garden-final.git) is website designed for Happy-Garden [Bootstrap](http://getbootstrap.com/) created by https://github.com/sumitdhameja. 
+[Happy-Garden](https://github.com/sumitdhameja/happy-garden-final.git) is website designed for Happy-Garden [Bootstrap](http://getbootstrap.com/) created by [Sumeet Dhameja](https://github.com/sumitdhameja). 
 
 ## Getting Started
 
@@ -8,11 +8,11 @@ This template is designed for Happy-Garden
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-full-slider/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/full-slider/).
+Have a bug or an issue with this template? here on GitHub or leave a comment on the [template overview page](https://github.com/sumitdhameja/happy-garden-final).
 
 ## Creator
 
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
+This was created by and is maintained by **Sumeet Dhameja**.
 
 * https://github.com/sumitdhameja
 
