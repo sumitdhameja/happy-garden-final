@@ -13,12 +13,19 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    
 
     <!-- Custom CSS -->
     <link href="css/full-slider.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <!--<link rel="stylesheet" type="text/css" href="css/demo.css" /> -->
+    <script type='text/javascript' src='loadImg.js'></script>
+
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link href='http://fonts.googleapis.com/css?family=Kelly+Slab' rel='stylesheet' type='text/css' />
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.0.0/bootstrap-social.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -48,16 +55,19 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">Collection</a>
+                        <a href="#images">Collection</a>
                     </li>
                     <li>
                         <a href="#">Services</a>
                     </li>
                     <li>
-                        <a href="#">About Us</a>
+                        <a href="#">Services</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -115,257 +125,204 @@
 
         <hr>
 <!-- start -->
-<div class="container">
-         
-			<div class="demos">
-				<a class="current-demo" href="index.html">Default Demo</a>
-				<a href="index2.html">Perspective Demo (Webkit only)</a>
-			</div>
-            <h1>Lateral On-Scroll Sliding with jQuery</h1>
-            <h2 class="ss-subtitle">Codrops Timeline</h2>
-			<div id="ss-links" class="ss-links">
-				<a href="#november">Nov</a>
-				<a href="#october">Oct</a>
-				<a href="#september">Sep</a>
-			</div>
-            <div id="ss-container" class="ss-container">
-                <div class="ss-row">
-                    <div class="ss-left">
-                        <h2 id="november">November</h2>
+    <section id ="images">
+ <div class="container">
+  <div class="row row-content">
+    <h1>Bootstrap 3 Lightbox image gallery using Modal</h1>
+   
+      <div class="col-lg-3 col-sm-4 col-xs-6"><div class="hovereffect"><a title="Image 1" href="#"><img class="thumbnail img-responsive" src="//placehold.it/600x350al"></a></div></div>
+      <div class="col-lg-3 col-sm-4 col-xs-6"><div class="hovereffect"><a title="Image 2" href="#"><img class="thumbnail img-responsive" src="//placehold.it/600x350/2255EE"></a></div></div>
+      <div class="col-lg-3 col-sm-4 col-xs-6"><div class="hovereffect"><a title="Image 3" href="#"><img class="thumbnail img-responsive" src="//placehold.it/600x350/449955/FFF"></a></div></div>
+      <div class="col-lg-3 col-sm-4 col-xs-6"><div class="hovereffect"><a title="Image 4" href="#"><img class="thumbnail img-responsive" src="//placehold.it/600x350/992233"></a></div></div>
+      <div class="col-lg-3 col-sm-4 col-xs-6"><div class="hovereffect"><a title="Image 5" href="#"><img class="thumbnail img-responsive" src="//placehold.it/600x350/2255EE"></a></div></div>
+      <div class="col-lg-3 col-sm-4 col-xs-6"><div class="hovereffect"><a title="Image 6" href="#"><img class="thumbnail img-responsive" src="//placehold.it/600x350/449955/FFF"></a></div></div>
+      <div class="col-lg-3 col-sm-4 col-xs-6"><div class="hovereffect"><a title="Image 8" href="#"><img class="thumbnail img-responsive" src="//placehold.it/600x350/777"></a></div></div>
+      <div class="col-lg-3 col-sm-4 col-xs-6"><div class="hovereffect"><a title="Image 9" href="#"><img class="thumbnail img-responsive" src="//placehold.it/600x350/992233"></a></div></div>
+      <div class="col-lg-3 col-sm-4 col-xs-6"><div class="hovereffect"><a title="Image 10" href="#"><img class="thumbnail img-responsive" src="//placehold.it/600x350/EEE"></a></div></div>
+      <div class="col-lg-3 col-sm-4 col-xs-6"><div class="hovereffect"><a title="Image 11" href="#"><img class="thumbnail img-responsive" src="//placehold.it/600x350/449955/FFF"></a></div></div>
+      <div class="col-lg-3 col-sm-4 col-xs-6"><div class="hovereffect"><a title="Image 12" href="#"><img class="thumbnail img-responsive" src="//placehold.it/600x350/DDD"></a></div></div>
+      <div class="col-lg-3 col-sm-4 col-xs-6"><div class="hovereffect"><a title="Image 13" href="#"><img class="thumbnail img-responsive" src="//placehold.it/600x350/992233"></a></div></div>
+   
+    <hr>
+    
+    <hr>
+  </div>
+</div>
+</section>
+<div tabindex="-1" class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+		<button class="close" type="button" data-dismiss="modal">×</button>
+		<h3 class="modal-title">Heading</h3>
+	</div>
+	<div class="modal-body">
+		
+	</div>
+	<div class="modal-footer">
+		<button class="btn btn-default" data-dismiss="modal">Close</button>
+	</div>
+   </div>
+  </div>
+</div>
+
+
+
+
+<section id="contact">
+<div class="row row-content">
+           <div class="col-xs-12">
+              <h3>Location Information</h3> 
+           </div>
+            <div class="col-xs-12 col-sm-4 col-sm-offset-1">
+                   <h5>Our Address</h5>
+                    <address style="font-size: 100%">
+		              121, Clear Water Bay Road<br>
+		              Clear Water Bay, Kowloon<br>
+		              HONG KONG<br>
+		              <i class="fa fa-phone"></i>: +852 1234 5678<br>
+		              <i class="fa fa-fax"></i>: +852 8765 4321<br>
+		              <i class="fa fa-envelope"></i>: 
+                        <a href="mailto:confusion@food.net">confusion@food.net</a>
+		           </address>
+                 <div class="btn-group" role="group" aria-label="...">
+                <a type="button" href="tel:+85212345678" class="btn btn-primary">
+                    <i class="fa fa-phone"></i> Call</a>
+
+                    <a type="button" class="btn btn-info">
+                    <i class="fa fa-skype"></i> Skype</a>
+
+                    <a type="button" href="mailto:confusion@food.net" class="btn btn-success">
+                    <i class="fa fa-envelope-o"></i> Email</a>
+                </div>
+            </div>
+     <div class="col-xs-12 col-sm-6 pull-right">
+                <h5>Map of our Location</h5>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2648.833038448318!2d-89.2826271!3d48.402149400000006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d59202c99c9252f%3A0x4cb61e2f5a8d87e!2s218+Humber+Crescent%2C+Thunder+Bay%2C+ON+P7C+5X2!5e0!3m2!1sen!2sca!4v1424370904204" width=50% height="300" frameborder="1" style="border:0"></iframe>
+
+            </div>
+    
+           
+           
+        </div>
+    
+    <!-- Contact us begin-->
+    
+    <div class="row row-content">
+           <div class="col-xs-12">
+              <h3>Send us your Feedback</h3> 
+           </div>
+            <div class="col-xs-12 col-sm-9">
+                <!--form goes here -->
+                <form class="form-horizontal" role="form">
+                    <div class="form-group"><!-- Form group class adds row feature by default-->
+                        <label for="firstname" class="col-sm-2 control-label">First Name</label>                        <div class="col-sm-10">
+                        <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Enter First Name">
+                        </div>
                     </div>
-                    <div class="ss-right">
-                        <h2>2011</h2>
+                    <div class="form-group">
+                        <label for="lastname" class="col-sm-2 control-label">Last Name</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Enter Last Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="telnum" class="col-xs-12 col-sm-2 control-label">Contact Tel.</label>
+                        <div class="col-xs-5 col-sm-4 col-md-3">
+                            <div class="input-group">
+                                <div class="input-group-addon">(</div>
+                                    <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code">
+                                <div class="input-group-addon">)</div>
+                            </div>
+                        </div>
+                        <div class="col-xs-7 col-sm-6 col-md-7">
+                                    <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="emailid" class="col-sm-2 control-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+                        </div>
+                    </div>
+                     <div class="form-group">
+                       <div class="checkbox col-sm-5 col-sm-offset-2">
+                            <label class="checkbox-inline">
+                                <input type="checkbox" name="approve" value="">
+                                <strong>May we contact you?</strong>
+                            </label>
+                        </div>
+                        <div class="col-sm-3 col-sm-offset-1">
+                            <select class="form-control">
+                                <option>Tel.</option>
+                                <option>Email</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="feedback" class="col-sm-2 control-label">Your Feedback</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-primary">Send Feedback</button>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+             <div class="col-xs-12 col-sm-3">
+                <p style="padding:20px;"></p>
+            </div>
+       </div>
+        </section>
+    <!-- Footer Start -->
+ <footer class="row-footer">
+        <div class="container">
+            <div class="row">             
+                <div class="col-xs-5 col-xs-offset-1 col-sm-2 col-sm-offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Collection</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+		              B-9, Flat# 6077<br>
+		              Vasant Kunj, New Delhi<br>
+		              INDIA<br>
+		              <i class="fa fa-phone"></i>: +852 1234 5678<br>
+		              <i class="fa fa-fax"></i>: +852 8765 4321<br>
+		              <i class="fa fa-envelope"></i>: 
+                        <a href="mailto:bhatiavk@gmail.com">bhatiavk@gmail.com</a>
+		           </address>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="nav navbar-nav" style="padding: 40px 10px;">
+                        <a class="btn btn-social-icon btn-google-plus" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
                     </div>
                 </div>
-                <div class="ss-row ss-medium">
-                    <div class="ss-left">
-                        <a href="http://tympanus.net/Tutorials/TypographyEffects/" class="ss-circle ss-circle-1">Typography Effects with CSS3 and jQuery</a>
-                    </div>
-                    <div class="ss-right">
-                        <h3>
-                            <span>November 28, 2011</span>
-                            <a href="http://tympanus.net/Tutorials/TypographyEffects/">Typography Effects with CSS3 and jQuery</a>
-                        </h3>
-                    </div>
+                <div class="col-xs-12">
+                    <p style="padding:10px;"></p>
+                    <p align=center>© Copyright 2016 Happy Garden Inc.</p>
                 </div>
-				<div class="ss-row ss-large">
-                    <div class="ss-left">
-                        <h3>
-                            <span>November 22, 2011</span>
-                            <a href="http://tympanus.net/Development/HoverClickTriggerCircle/">Hover and Click Trigger for Circular Elements with jQuery</a>
-                        </h3>
-                    </div>
-					<div class="ss-right">
-                        <a href="http://tympanus.net/Development/HoverClickTriggerCircle/" class="ss-circle ss-circle-2">Hover and Click Trigger for Circular Elements with jQuery</a>
-                    </div>
-                </div>
-                <div class="ss-row ss-small">
-                    <div class="ss-left">
-						<a href="http://tympanus.net/Tutorials/ElasticSlideshow/" class="ss-circle ss-circle-3">Elastic Image Slideshow with Thumbnail Preview</a>
-                    </div>
-                    <div class="ss-right">
-                        <h3>
-                            <span>November 21, 2011</span>
-                            <a href="http://tympanus.net/Tutorials/ElasticSlideshow/">Elastic Image Slideshow with Thumbnail Preview</a>
-                        </h3>
-                    </div>
-                </div>
-				<div class="ss-row ss-medium">
-                    <div class="ss-left">
-                        <h3>
-                            <span>November 18, 2011</span>
-                            <a href="http://tympanus.net/Development/FullscreenImageBlurEffect/">Fullscreen Image Blur Effect with HTML5</a>
-                        </h3>
-                    </div>
-					<div class="ss-right">
-                        <a href="http://tympanus.net/Development/FullscreenImageBlurEffect/" class="ss-circle ss-circle-4">Fullscreen Image Blur Effect with HTML5</a>
-                    </div>
-                </div>
-				<div class="ss-row ss-large">
-                    <div class="ss-left">
-                        <a href="http://tympanus.net/Tutorials/InteractiveTypographyEffects/" class="ss-circle ss-circle-5">Interactive Typography Effects with HTML5</a>
-                    </div>
-                    <div class="ss-right">
-                        <h3>
-                            <span>November 9, 2011</span>
-                            <a href="http://tympanus.net/Tutorials/InteractiveTypographyEffects/">Interactive Typography Effects with HTML5</a>
-                        </h3>
-                    </div>
-                </div>
-				<div class="ss-row ss-small">
-                    <div class="ss-left">
-                        <a href="http://tympanus.net/Tutorials/AnimatedButtons/" class="ss-circle ss-circle-6">Animated Buttons with CSS3</a>
-                    </div>
-                    <div class="ss-right">
-                        <h3>
-                            <span>November 7, 2011</span>
-                            <a href="http://tympanus.net/Tutorials/AnimatedButtons/">Animated Buttons with CSS3</a>
-                        </h3>
-                    </div>
-                </div>
-				<div class="ss-row ss-medium">
-                    <div class="ss-left">
-                        <h3>
-                            <span>November 2, 2011</span>
-                            <a href="http://tympanus.net/Tutorials/OriginalHoverEffects/">Original Hover Effects with CSS3</a>
-                        </h3>
-                    </div>
-					<div class="ss-right">
-                        <a href="http://tympanus.net/Tutorials/OriginalHoverEffects/" class="ss-circle ss-circle-7">Original Hover Effects with CSS3</a>
-                    </div>
-                </div>
-				<div class="ss-row">
-                    <div class="ss-left">
-                        <h2 id="october">October</h2>
-                    </div>
-                    <div class="ss-right">
-                        <h2>2011</h2>
-                    </div>
-                </div>
-				<div class="ss-row ss-small">
-                    <div class="ss-left">
-                        <h3>
-                            <span>October 31, 2011</span>
-                            <a href="http://tympanus.net/Development/FullscreenImage3DEffect/">Fullscreen Image 3D Effect with CSS3 and jQuery</a>
-                        </h3>
-                    </div>
-                    <div class="ss-right">
-						<a href="http://tympanus.net/Development/FullscreenImage3DEffect/" class="ss-circle ss-circle-8">Fullscreen Image 3D Effect with CSS3 and jQuery</a>
-                    </div>
-                </div>
-				<div class="ss-row ss-large">
-                    <div class="ss-left">
-                        <a href="http://tympanus.net/Tutorials/CreativeCSS3AnimationMenus/" class="ss-circle ss-circle-9">Creative CSS3 Animation Menus</a>
-                    </div>
-                    <div class="ss-right">
-                        <h3>
-                            <span>October 24, 2011</span>
-                            <a href="http://tympanus.net/Tutorials/CreativeCSS3AnimationMenus/">Creative CSS3 Animation Menus</a>
-                        </h3>
-                    </div>
-                </div>
-				<div class="ss-row ss-medium">
-                    <div class="ss-left">
-                        <a href="http://tympanus.net/Tutorials/BlurMenu/" class="ss-circle ss-circle-10">Blur Menu with CSS3 Transitions</a>
-                    </div>
-                    <div class="ss-right">
-                        <h3>
-                            <span>October 19, 2011</span>
-                            <a href="http://tympanus.net/Tutorials/BlurMenu/">Blur Menu with CSS3 Transitions</a>
-                        </h3>
-                    </div>
-                </div>
-				<div class="ss-row ss-large">
-                    <div class="ss-left">
-                        <h3>
-                            <span>October 17, 2011</span>
-                            <a href="http://tympanus.net/Development/WaveDisplayEffect/">Wave Display Effect with jQuery</a>
-                        </h3>
-                    </div>
-                    <div class="ss-right">
-						<a href="http://tympanus.net/Development/WaveDisplayEffect/" class="ss-circle ss-circle-11">Wave Display Effect with jQuery</a>
-                    </div>
-                </div>
-				<div class="ss-row ss-small">
-                    <div class="ss-left">
-                        <a href="http://tympanus.net/Tutorials/FlexibleSlideToTopAccordion/" class="ss-circle ss-circle-12">Flexible Slide-to-top Accordion</a>
-                    </div>
-                    <div class="ss-right">
-                        <h3>
-                            <span>October 12, 2011</span>
-                            <a href="http://tympanus.net/Tutorials/FlexibleSlideToTopAccordion/">Flexible Slide-to-top Accordion</a>
-                        </h3>
-                    </div>
-                </div>
-				<div class="ss-row ss-medium">
-                    <div class="ss-left">
-                        <h3>
-                            <span>October 10, 2011</span>
-                            <a href="http://tympanus.net/Tutorials/CircleNavigationEffect/">Circle Navigation Effect with CSS3</a>
-                        </h3>
-                    </div>
-                    <div class="ss-right">
-						<a href="http://tympanus.net/Tutorials/CircleNavigationEffect/" class="ss-circle ss-circle-13">Circle Navigation Effect with CSS3</a>
-                    </div>
-                </div>
-				<div class="ss-row ss-large">
-                    <div class="ss-left">
-                        <a href="http://tympanus.net/Tutorials/DraggableImageBoxesGrid/" class="ss-circle ss-circle-14">Draggable Image Boxes Grid</a>
-                    </div>
-                    <div class="ss-right">
-                        <h3>
-                            <span>October 7, 2011</span>
-                            <a href="http://tympanus.net/Tutorials/DraggableImageBoxesGrid/">Draggable Image Boxes Grid</a>
-                        </h3>
-                    </div>
-                </div>
-				<div class="ss-row">
-                    <div class="ss-left">
-                        <h2 id="september">September</h2>
-                    </div>
-                    <div class="ss-right">
-                        <h2>2011</h2>
-                    </div>
-                </div>
-				<div class="ss-row ss-small">
-                    <div class="ss-left">
-                        <h3>
-                            <span>September 30, 2011</span>
-                            <a href="http://tympanus.net/Tutorials/ScrollbarVisibility/">Scrollbar Visibility with jScrollPane</a>
-                        </h3>
-                    </div>
-                    <div class="ss-right">
-						<a href="http://tympanus.net/Tutorials/ScrollbarVisibility/" class="ss-circle ss-circle-15">Scrollbar Visibility with jScrollPane</a>
-                    </div>
-                </div>
-				<div class="ss-row ss-medium">
-                    <div class="ss-left">
-                        <a href="http://tympanus.net/Development/MultiLevelPhotoMap/" class="ss-circle ss-circle-16">Multi-level Photo Map</a>
-                    </div>
-                    <div class="ss-right">
-                        <h3>
-                            <span>September 27, 2011</span>
-                            <a href="http://tympanus.net/Development/MultiLevelPhotoMap/">Multi-level Photo Map</a>
-                        </h3>
-                    </div>
-                </div>
-				<div class="ss-row ss-large">
-                    <div class="ss-left">
-                        <a href="http://tympanus.net/Tutorials/ResponsiveImageGallery/" class="ss-circle ss-circle-17">Responsive Image Gallery with Thumbnail Carousel</a>
-                    </div>
-                    <div class="ss-right">
-                        <h3>
-                            <span>September 20, 2011</span>
-                            <a href="http://tympanus.net/Tutorials/ResponsiveImageGallery/">Responsive Image Gallery with Thumbnail Carousel</a>
-                        </h3>
-                    </div>
-                </div>
-				<div class="ss-row ss-small">
-                    <div class="ss-left">
-						<h3>
-                            <span>September 12, 2011</span>
-                            <a href="http://tympanus.net/Development/Elastislide/">Elastislide - A Responsive jQuery Carousel Plugin</a>
-                        </h3>
-                    </div>
-                    <div class="ss-right">
-						<a href="http://tympanus.net/Development/Elastislide/" class="ss-circle ss-circle-18">Elastislide - A Responsive jQuery Carousel Plugin</a>
-                    </div>
-                </div>
-				<div class="ss-row ss-medium">
-                    <div class="ss-left">
-                        <a href="http://tympanus.net/Development/Slicebox/" class="ss-circle ss-circle-19">Slicebox - A fresh 3D image slider with graceful fallback </a>
-                    </div>
-                    <div class="ss-right">
-                        <h3>
-                            <span>September 5, 2011</span>
-                            <a href="http://tympanus.net/Development/Slicebox/">Slicebox - A fresh 3D image slider with graceful fallback </a>
-                        </h3>
-                    </div>
-                </div>
-	
             </div>
         </div>
-
+    </footer>
+    
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <script   src="https://code.jquery.com/ui/1.12.0-rc.2/jquery-ui.min.js"   integrity="sha256-55Jz3pBCF8z9jBO1qQ7cIf0L+neuPTD1u7Ytzrp2dqo="   crossorigin="anonymous"></script>
